@@ -1,0 +1,18 @@
+/*Navigation bar style */
+nav { /*this centers the navigation links to center of container*/
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li {/*removes list points, aligns the elements in the same line,
+and adds padding to the navigation links*/
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+/*Navigation bar style*/
