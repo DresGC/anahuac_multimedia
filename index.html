@@ -10,29 +10,29 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="">Descargar</a></li>
-                    <li><a href="">Características</a></li>
-                    <li><a href="">Soluciones</a></li>
-                    <li><a href="">Información</a></li>
+                    <li><a href="#download">Descargar</a></li>
+                    <li><a href="#features1">Características</a></li>
+                    <li><a href="#features2">Soluciones</a></li>
+                    <li><a href="#about-us">Sobre Nosotros</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section class="greeting-img">
+            <section id="heading">
                 <div class="main-img">
                     <img class="mockup01" src="images/mockups/mockup01.jpg">
                 </div>
                 <div class="greeting">
                     <p class="welcome">Bienvenido a</p>
-                    <h1 class="garuda">Garuda</h1>
-                    <p class="greeting">Descubre al nuevo contendiente en el
+                    <img class="garuda-logo" src="images/other/garuda-logo.png">
+                    <p class="greeting-text">Descubre al nuevo contendiente en el
                         campo de sistemas operativos Linux.</p>
                     <a href="https://www.google.com"><img class="download1" src="images/icons/download1.png"></a>
                 </div>
             </section>
 
-            <section class="features1">
+            <section id="features1">
                 <div class="feat1">
                     <img class="icon" src="images/icons/icon_speed.png">
                     <h2 class="feat-title">Veloz</h2>
@@ -54,7 +54,7 @@
                 </div>
             </section>
 
-            <section class="features2">
+            <section id="features2">
                 <div class="feat2">
                     <img class="icon" src="images/icons/icon_folder.png">
                     <h2 class="feat-title2">Seguro</h2>
@@ -64,7 +64,7 @@
                 </div>
             </section>
 
-            <section class="chars1">
+            <section id="chars1">
                 <div class="chars-text1">
                 <h2 class="char-title">Instalación Intachable</h2>
                 <p class="char-paragraph">Garuda ofrece una sencilla instalación para un sistema 
@@ -78,7 +78,7 @@
                 </div>
             </section>
 
-            <section class="chars2">
+            <section id="chars2">
                 <div class="chars-img2">
                     <img src="images/desktop_img/desktop_dragonized.png">
                 </div>
@@ -91,46 +91,50 @@
                 </div>
             </section>
 
-            <section class="download">
-                <div class="download2">
+            <section id="download">
+                <div class="download-upper">
                     <h2 class="download-title">Descargar</h2>
                     <p class="download-paragraph">Garuda cuenta con diez diferentes entornos de 
                         escritorio, los cuales tienen sus propias características y flujos de trabajo. 
                         Dependiendo si viene de Windows o MacOS, puede que te sientas más familiar 
                         con unos que con otros.</p>
                 </div>
-                <div class="download-arrow-left">
+            </section>
+
+            <section id="download-lower">
+                <div class="download-arrow">
                     <a href=""><img src="images/icons/arrow-left.png"></a>
                 </div>
-                <div class="download2">
+                <div class="de-icon">
                     <img src="images/icons/de-logo.png">
-                    <p class="download-paragraph">Simple pero poderoso. El entorno de escritorio 
+                    <p class="de-description">Simple pero poderoso. El entorno de escritorio 
                         más popular y compatible entre distribuciones.</p>
-                    <a href=""><img src="images/icons/download2.png"></a>
+                    <a class="download-green" href=""><img src="images/icons/download2.png"></a>
                 </div>
-                <div class="download-arrow-right">
+                <div class="download-arrow">
                     <a href=""><img src="images/icons/arrow-right.png"></a>
                 </div>
             </section>
         </main>
 
-        <footer>
+        <footer id="about-us">
             <div class="footer-box">
                 <h3 class="footer-title">Nuestras Redes</h3>
                 <div class="social">
-                    <a href="https://www.google.com"><img src="images/icons/icon_social_gr.png"></a>
-                    <a href="https://www.google.com"><img src="images/icons/icon_social_tw.png"></a>
-                    <a href="https://www.google.com"><img src="images/icons/icon_social_fb.png"></a>
+                    <a href="https://www.google.com"><img class="social-button" src="images/icons/icon_social_gr.png"></a>
+                    <a href="https://www.google.com"><img class="social-button" src="images/icons/icon_social_tw.png"></a>
+                    <a href="https://www.google.com"><img class="social-button" src="images/icons/icon_social_fb.png"></a>
                 </div>
             </div>
             <div class="footer-box">
                 <h3 class="footer-title">Licencias</h3>
                 <p class="footer-paragraph">Garuda Linux está registrado bajo la licencia GNU GPLv3. 
-                    Esto quiere decir que el SO SIEMPRE se mantendrá gratuito y abierto.</p>
+                    Esto quiere decir que el Sistema Operativo SIEMPRE será gratuito y abierto.</p>
             </div>
             <div class="footer-box">
                 <h3 class="footer-title">Contribuye</h3>
-                <a href="https://fosshost.org/"><p class="footer-paragraph">Donar a Fosshost</p></a>
+                <img class="img-fosshost" src="images/other/fosshost.png">
+                <a class="donate-text" href="https://fosshost.org/"><p >Donar a Fosshost</p></a>
             </div>
         </footer>
     </body>

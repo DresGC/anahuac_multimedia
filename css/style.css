@@ -1,4 +1,15 @@
-/*Navigation bar style */
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*navbar section style */
 nav { /*this centers the navigation links to center of container*/
     text-align: center;
 }
@@ -12,16 +23,48 @@ nav ul li {/*removes list points, aligns the elements in the same line,
 and adds padding to the navigation links*/
     display: inline-block;
     text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 60px;
     padding-top: 0%;
     padding-bottom: 0%;
 }
-/*Navigation bar style*/
 /*---------------------*/
 
-/*features1 style*/
+/*heaeding section style*/
+#heading {
+    background-color: #191B28;
+    display: flex;
+    align-items: center;
+}
 
-.features1 {
+.main-img {
+    max-width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-img img {
+    max-width: 150%;
+}
+
+.greeting {
+    padding: 5%;
+}
+
+.garuda-logo {
+    max-width: 100%;
+}
+
+.greeting p {
+    color: white;
+}
+.download1 {
+    max-width: 150px;
+}
+/*---------------------*/
+
+/*features1 section style*/
+#features1 {
     display: flex;
     justify-content: center;
     padding: 2%;
@@ -29,7 +72,7 @@ and adds padding to the navigation links*/
 
 .feat1 {
     max-width: 300px;
-    margin: 1%;
+    padding: 2%;
 }
 
 .icon {
@@ -47,23 +90,20 @@ and adds padding to the navigation links*/
 .feat-paragraph {
     text-align: center;
 }
-/*features1 style*/
 /*---------------------*/
 
-/*features2 style*/
+/*features2 section style*/
 
-.features2 {
+#features2 {
     background-color: #191B28;
     display: flex;
     justify-content: center;
     padding: 2%;
     padding-top: 4%;
-    margin: -15px;
 }
 
 .feat2 {
-    max-width: 900px;
-    margin: 1%;
+    max-width: 60%;
 }
 
 .feat-title2 {
@@ -75,11 +115,10 @@ and adds padding to the navigation links*/
     text-align: center;
     color: white;
 }
-/*features2 style*/
 /*---------------------*/
 
-/*chars1 style*/
-.chars1 {
+/*chars1 section style*/
+#chars1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,13 +126,14 @@ and adds padding to the navigation links*/
 
 .chars-text1 {
     max-width: 30%;
-    margin: 1%;
     padding: 5%;
 }
 
 .chars-img1 {
     max-width: 70%;
-    margin: 1%;
+    position: relative;
+    width: fit-content;
+    overflow: hidden;
 }
 
 .char-img {
@@ -101,4 +141,138 @@ and adds padding to the navigation links*/
 }
 /*---------------------*/
 
-/*chars2 style*/
+/*chars2 section style*/
+#chars2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chars-img2 {
+    max-width: 60%;
+    position: relative;
+    overflow: hidden;
+}
+
+.chars-text2 {
+    max-width: 30%;
+    padding: 5%;
+}
+/*---------------------*/
+
+/*download section style*/
+#download {
+    background-color: #191B28;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#download h2 {
+    color: white;
+}
+
+#download p {
+    color: white;
+}
+
+.download-upper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}
+
+.download-title {
+    text-align: center;
+}
+
+.download-paragraph {
+    text-align: center;
+}
+
+#download-lower {
+    background-color: #191B28;
+    display: flex;
+    justify-content: center;
+}
+
+#download-lower p {
+    color: white;
+    padding: 5%;
+}
+
+.download-arrow {
+    max-width: 58px;
+    max-height: 458px;
+    margin: 3%;
+    display: block;
+    padding: ;
+}
+
+.de-description {
+    text-align: center;
+}
+
+.de-icon {
+    padding: 2%;
+}
+
+.de-icon img {
+    max-width: 58px;
+    max-height: 458px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.download-green {
+    padding: 1%
+}
+/*---------------------*/
+
+/*footer section style*/
+footer {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box{
+    width: 33%;
+    justify-content: center;
+}
+
+.footer-title {
+    text-align: center;
+}
+
+.social {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.social-button {
+    width: 64px;
+    padding: 8%;
+}
+
+.img-fosshost {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.footer-paragraph {
+    text-align: center;
+    padding: 10%;
+}
+
+.donate-text {
+    text-align: center;
+}
+
