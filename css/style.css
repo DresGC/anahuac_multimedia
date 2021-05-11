@@ -231,6 +231,21 @@ and adds padding to the navigation links*/
 }
 /*---------------------*/
 
+/*top section style*/
+.back-to-top {
+    text-align: center;
+    padding: 5%;
+}
+
+.back-to-top h2 {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+/*---------------------*/
+
 /*footer section style*/
 footer {
     padding: 3%;
@@ -238,7 +253,7 @@ footer {
     justify-content: center;
 }
 
-.footer-box{
+.footer-box {
     width: 33%;
     justify-content: center;
 }
